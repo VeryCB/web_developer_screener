@@ -1,11 +1,3 @@
-Thanks for applying to Storypark! This repo contains everything related to our backend technical screener.
-
-We have designed the process to take less than 3 hours to complete, but understand that everyone's availability may be different. Please let me know (roughly) when we can except your answers. It may take a day or two to review your responses, so hang tight, and we'll give you feedback once one of the team members has looked through things.
-
-# About the screener
-- Do take your time, we're specifically looking for well written and tested code, and something you would consider to be production quality.
-- You are welcome to use any language you feel comfortable with. The quality matters more than the framework. You may share your answers how you see fit, generally a zip file or github.com link has been preferred by previous candidates.
-
 # Questions
 1. What’s your proudest achievement? It can be a personal project or something you’ve worked on professionally. Just a short paragraph is fine, but we’d love to know why you’re proud of it.
 2. What's the most interesting technical article you've read recently? What did you like about it and why should we take a look at it?
@@ -14,4 +6,8 @@ We have designed the process to take less than 3 hours to complete, but understa
   - You can use the first formula from [this Wikipedia article](https://en.wikipedia.org/wiki/Great-circle_distance) to calculate distance, don’t forget, you’ll need to convert degrees to radians.
   - This output can be displayed however you like, from a light rails/sinatra/go/node web app to a CLI. Do what you're comfortable with, again with a focus on simple, idomatic code.
 
-Hat tip to intercom.io, who have blogged about their hiring process and we've based ours on this.
+# Answers
+1. When I started my career at Douban Inc. in early 2013, I joined a new team to build a fancy-like product from scratch, which called Douban Dongxi (https://dongxi.douban.com), as a core backend engineer. During the two years of building it, I learned that building a product is not easy and technology is only one part of it. In addition to coding, I thought a lot about product value, user experience and growth. My proudest achievement is that millions of users are using our website and mobile app to buy their favorite products and they love it. I was very excited when I saw someone praising Douban Dongxi on social medias like twitter and weibo. Bring the real value to users is what good products should do and why I want to build them.
+2. [How it feels to learn javascript in 2016](https://medium.com/m/global-identity?redirectUrl=https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f). The JavaScript community has been very active in recent years. The tech stack like frameworks and libraries changes almost every year. The article makes fun of it in a casual way. I will not take it seriously. Actually it provides a roadmap for beginners to catch up, although I think the most important is the fundamental, like HTML semantic tags and structure, CSS layouts and JavaScript DOM operation. It also makes me to think about the reason for the phenomenon. The microservice architecture is becoming more and more popular, business logic and UI interacion are more and more complicated in the front-end to fit users' need. jQuery is no longer enough to build large and complex single page applications. So I think a thriving ecosystem is necessary to make front-end development become mature.
+3. See `flatten.py`, which requires [pytest](http://doc.pytest.org) to run the unittest. You could run the test with `pytest flatten.py`.
+4. See `staff.py` and `templates/staff_list.html`, which requires [flask](http://flask.pocoo.org) to run the web server. You could start the server with `python staff.py` and visit `http://localhost:5000` in browser to see the result. A test is also included in `staff.py` to test great-circle distance calculation. You could run the test with `pytest staff.py`.

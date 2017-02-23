@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="all staff ordered by name, who live within 2km of the office" name="description"/>
+    <title>Staff List</title>
+  </head>
+
+  <body>
+    <ul>
+    {% for staff in staff_list %}
+        <li>{{ staff['name'] }} - {{ staff['role'] }}</li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>
